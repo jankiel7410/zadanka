@@ -1,0 +1,22 @@
+{
+  "name": "zadanka",
+  "version": "1.0.0",
+  "description": "* załóż konto na github\r * sklonuj to repozytorium: `git clone https://github.com/jankiel7410/zadanka.git`\r * stwórz branch \"podstawy\": `git checkout -b podstawy`\r * rozwiąż zadania.\r * utwórz pull request. Jeśli nie wiesz jak, to ci pomogę.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jankiel7410/zadanka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jankiel7410/zadanka/issues"
+  },
+  "homepage": "https://github.com/jankiel7410/zadanka#readme",
+  "devDependencies": {
+    "jest": "^26.5.3"
+  }
+}

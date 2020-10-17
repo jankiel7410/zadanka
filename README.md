@@ -13,3 +13,7 @@
 Każde zadanie to osobny plik. Żeby sprawdzić czy rozwiązanie jest prawidłowe, uruchom komendę  `npx jest <file>`, np. `npx jest fundamentals/first_steps.test.js`
 
 Protip: możesz dodać flagę `--watch` żeby dostawać feedback z testów za każdym razem kiedy zmieniasz plik.
+
+# kolejność
+1. first_steps.test.js
+2. math.test.js

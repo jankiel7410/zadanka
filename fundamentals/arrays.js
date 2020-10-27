@@ -1,1 +1,3 @@
-2+2 == 4
+const calculation = 2+2;
+
+calculation == 4

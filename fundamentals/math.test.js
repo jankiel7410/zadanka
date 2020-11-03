@@ -4,8 +4,14 @@
  */
 
 
-function gcd(a, b) {
-    return 0
+function gcd(a, b) {    
+    let arr = [];
+
+    for (let i = 0; i <= (a <= b ? a : b); i++) {
+        arr.push(i);
+    }
+    
+    return arr.filter(x => (a % x == 0 && b % x == 0)).reverse()[0];
 }
 
 

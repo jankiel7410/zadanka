@@ -4,8 +4,14 @@
  */
 
 
-function gcd(a, b) {
-    return 0
+function gcd(a, b) {    
+    
+    for (let i = (a <= b ? a : b); i > 0 ; i--) {
+        if (a % x == 0 && b % x == 0) {
+            return x
+        }
+    }    
+    
 }
 
 

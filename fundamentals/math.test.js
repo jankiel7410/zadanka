@@ -5,13 +5,13 @@
 
 
 function gcd(a, b) {    
-    let arr = [];
-
-    for (let i = 0; i <= (a <= b ? a : b); i++) {
-        arr.push(i);
-    }
     
-    return arr.filter(x => (a % x == 0 && b % x == 0)).reverse()[0];
+    for (let i = (a <= b ? a : b); i > 0 ; i--) {
+        if (a % x == 0 && b % x == 0) {
+            return x
+        }
+    }    
+    
 }
 
 

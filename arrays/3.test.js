@@ -5,7 +5,7 @@
  */
 
 function flatten(arr) {
-    return arr;
+    return [].concat(...arr);
 }
 
 

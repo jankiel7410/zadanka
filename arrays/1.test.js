@@ -11,12 +11,12 @@ const users = [
     {name: 'Bob', age: 17},
 ]
 
-function sortedByAge() {
-    return users
+function sortedByAge(arr) {
+    return arr.sort((a, b) => a.age - b.age)
 }
 
-function sortedByNameLength() {
-    return users
+function sortedByNameLength(arr) {
+    return arr.sort((a, b) => a.name.length - b.name.length)
 }
 
 describe('sort by age', () => {

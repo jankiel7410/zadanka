@@ -11,7 +11,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -19,9 +18,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    - id: install
+    - id: install dependencies
       run: npm ci
-    - id: test-fundamentals
-      run: npm test
-    - id: test-arrays
-      run: npm test
+    - id: test fundamentals
+      run: npm test -- fundamentals
+    - id: test arrays
+      run: npm test -- arrays

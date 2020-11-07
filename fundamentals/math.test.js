@@ -7,8 +7,8 @@
 function gcd(a, b) {    
     
     for (let i = (a <= b ? a : b); i > 0 ; i--) {
-        if (a % x == 0 && b % x == 0) {
-            return x
+        if (a % i == 0 && b % i == 0) {
+            return i
         }
     }    
     

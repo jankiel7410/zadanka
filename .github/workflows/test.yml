@@ -19,5 +19,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    - run: npm ci
-    - run: npm test
+    - id: install
+      run: npm ci
+    - id: test-fundamentals
+      run: npm test
+    - id: test-arrays
+      run: npm test
